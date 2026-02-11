@@ -83,3 +83,56 @@ class LogicalOperatorExample {
         }
     }
 }
+
+//to check a number is +ve,-ve or zero
+class posnegzero{
+    public static void main(String[] args){
+        int num=30;
+        if(num>0){
+            System.out.println("positive number");
+        }else if(num<0){
+            System.out.println("negative number");
+        }else{
+            System.out.println("zero");
+        }
+    }
+}
+
+//to find largest of three
+class largest{
+    public static void main(String[] args){
+        int a=10;
+        int b=20;
+        int c=30;
+        if(a>b && a>c){
+            System.out.println("a is largest");
+        }else if(b>a && b>c){
+             System.out.println("b is largest");
+        }else{
+             System.out.println("c is largest");
+        }
+    }
+}
+
+class switchcondition{
+    public static void main(String[] args){
+        Scanner scn = new Scanner(System.in);
+        System.out.println("enter a alphabet:");
+        char ch=scn.next().charAt(0);
+        switch(ch){
+            case 'a':System.out.println("a is a vowel");
+            break;
+            case 'e':System.out.println("e is a vowel");
+            break;
+            case 'i':System.out.println("i is a vowel");
+            break;
+            case 'o':System.out.println("o is a vowel");
+            break;
+            case 'u':System.out.println("u is a vowel");
+            break;
+            default : System.out.println("consonsnt");
+        }
+    } 
+ }
+
+
