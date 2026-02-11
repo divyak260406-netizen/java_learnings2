@@ -31,3 +31,37 @@ class array1denhance{
     }
 }
 
+class array1max{
+  public static void main(String[] args){
+    int[] numbers={10,20,30,40,50};
+    int max=0;
+    for(int num:numbers){
+      if(num>max){
+        max=num;
+      }
+    }
+    System.out.println("max:"+max);
+
+  }
+}
+
+class arraymin{
+  public static void main(String[] args){
+    int[] numbers={10,20,30,40,50};
+    int min=numbers[0];
+    for(int num:numbers){
+      if(num<min){
+        min=num;
+      }
+    }
+    System.out.println("min:"+min);
+  }
+}
+
+ class Main{
+    public static void main(String[] args){
+        int[][] numbers={{1,2,3},{4,5,6}};
+        System.out.println(numbers[1][0]);
+    }
+}
+
