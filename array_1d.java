@@ -65,3 +65,28 @@ class arraymin{
     }
 }
 
+class demo{
+  public static void main(String[] args){
+    //String[] playlist = {"song1","song2","song3"}
+    //System.out.println(playlist1[0]);
+    String[] playlist1= new String[3];
+    playlist1[0] = "song1";
+    System.out.println(playlist1[0]);
+    playlist1[1] = "song2";
+    System.out.println(playlist1[1]);
+  }
+}
+
+//find the max of array = {10,30,60,80}
+class arraymax{
+  public static void main(String[] args){
+      int[] arr = {10,30,60,80};
+      int max=0;
+      for(int i=0;i<arr.length;i++){
+        if(arr[i]>max){
+          max=arr[i];
+        }
+      }
+      System.out.println("max:"+max);
+  }
+}
